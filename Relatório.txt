@@ -1,0 +1,31 @@
+Detecção de Poses e Contagem de Repetições com Mediapipe
+
+- Autores
+
+Este trabalho foi desenvolvido individualmente. Todas as etapas foram realizadas de forma independente, incluindo a implementação, testes e correções de erros.
+
+- Descrição do Trabalho
+
+O projeto consistiu em desenvolver um programa em Python que utiliza a biblioteca MediaPipe para:
+
+Detectar poses humanas em tempo real através de uma webcam.
+Calcular ângulos entre articulações específicas (quadril-joelho-tornozelo e ombro-cotovelo-pulso).
+Implementar a lógica para contar repetições de dois exercícios básicos: agachamentos e flexões de braço.
+Exibir os resultados em tempo real, incluindo o ângulo calculado e o número de repetições realizadas.
+
+- Dificuldades Encontradas
+
+Cálculo de ângulos: Foi necessário garantir que o cálculo do ângulo estivesse correto em diferentes posições do corpo. Corrigi erros como o uso incorreto das coordenadas no cálculo do arco tangente.
+
+- O que Aprendi
+
+Uso de bibliotecas de visão computacional: A integração do OpenCV com o MediaPipe foi fundamental para manipular e exibir imagens em tempo real.
+Matemática aplicada a problemas reais: O cálculo de ângulos usando funções trigonométricas foi uma aplicação prática de conceitos matemáticos.
+Desafios de desenvolvimento em tempo real: Trabalhar com captura de vídeo exigiu um entendimento sólido sobre manipulação de frames e otimização para evitar atrasos.
+Debugging de sistemas complexos: Identificar e corrigir erros em uma aplicação interativa ajudou a melhorar minhas habilidades em debugging e testes.
+
+- Conclusão
+
+O projeto foi concluído com sucesso, alcançando os objetivos propostos de detecção de movimentos e contagem de repetições. 
+Apesar dos desafios encontrados, as dificuldades contribuíram para aprimorar minhas habilidades em programação, visão computacional e uso de ferramentas de inteligência artificial como o MediaPipe.
+
